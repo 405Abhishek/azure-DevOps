@@ -34,7 +34,5 @@ stages:
           - script: echo deployement stage dev
 
 
-steps:
-- script: echo Hello, Running on $(operatingSystem)!
-  displayName: 'Run a one-line script'
+
 
