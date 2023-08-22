@@ -15,25 +15,25 @@ stages:
   - job: Job-1
     steps:
     - bash: echo Build FirstJob
-  - job: 2
+  - job: job2
     steps:
     - bash: echo Build 2nd-Job
       
-- stage: depl0y
+- stage: deploy
   jobs:
-  - job: Job-1
+  - job: Job1
     steps:
     - bash: echo deploy FirstJob
-  - job: 2
+  - job: job2
     steps:
     - bash: echo deploy 2nd-Job
 
-- stage: Prod-deploy
+- stage: Prod_deploy
   jobs:
   - job: Job-1
     steps:
     - bash: echo Prod-deploy FirstJob
-  - job: 2
+  - job: job2
     steps:
     - bash: echo Prod-Deploy 2nd-Job
       
