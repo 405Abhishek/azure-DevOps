@@ -15,18 +15,21 @@ stages:
   - job: Job1
     steps:
     - bash: echo Build FirstJob
+    - bash: echo $(PipelineLevelVariable)
   - job: job2
     steps:
     - bash: echo Build 2nd-Job
       
 - stage: deploy
+  variables:
+    environment: Dev
   jobs:
   - job: Job1
     steps:
     - bash: echo deploy FirstJob
   - job: job2
     steps:
-    - bash: echo deploy 2nd-Job
+    - bash: echo deploy $(environment)
 
 - stage: Prod_deploy
   jobs:
