@@ -22,5 +22,6 @@ jobs:
 
 - job: Job2
   steps:
-   - script:echo Job2
+  - script: echo Hello, JOb 1!
+    displayName: 'Run a one-line script'
 
