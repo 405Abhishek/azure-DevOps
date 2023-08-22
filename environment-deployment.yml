@@ -12,7 +12,7 @@ trigger:
 
 
 pool:
-  vmImage: $(operatingSystem)
+  vmImage: ubuntu-latest
 
 
 stages:
