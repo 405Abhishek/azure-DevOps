@@ -12,7 +12,7 @@ pool:
 stages:
 - stage: Build
   jobs:
-  - job: Job-1
+  - job: Job1
     steps:
     - bash: echo Build FirstJob
   - job: job2
@@ -30,7 +30,7 @@ stages:
 
 - stage: Prod_deploy
   jobs:
-  - job: Job-1
+  - job: Job1
     steps:
     - bash: echo Prod-deploy FirstJob
   - job: job2
