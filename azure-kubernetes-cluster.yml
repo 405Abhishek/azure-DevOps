@@ -19,10 +19,10 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'azure-service-connection'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'terraformbackendansh1234'
+    backendAzureRmResourceGroupName: 'trfrbkendansh1234'
     backendAzureRmResourceGroupLocation: 'westeurope'
     backendAzureRmStorageAccountName: 'storagean405sh'
-    backendAzureRmContainerName: 'storage_ansh1234'
+    backendAzureRmContainerName: 'storagsh1234'
     backendAzureRmKey: 'k8s-dev.tfstate'
     allowTelemetryCollection: true
   displayName: 'Run a one-line script'
