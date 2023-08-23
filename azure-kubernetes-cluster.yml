@@ -7,7 +7,7 @@ pool:
 - task: DownloadSecureFile@1
   name: publickey
   inputs:
-    secureFile: 'acure_rsa.pub'
+    secureFile: 'azure_rsa.pub'
 
 steps:
 - script: echo K8s Terraform Azure
