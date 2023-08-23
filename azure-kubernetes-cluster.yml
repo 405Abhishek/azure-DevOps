@@ -21,7 +21,7 @@ steps:
     ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-ansh1234'
     backendAzureRmResourceGroupLocation: 'westeurope'
-    backendAzureRmStorageAccountName: 'storage_an405sh'
+    backendAzureRmStorageAccountName: 'storagean405sh'
     backendAzureRmContainerName: 'storage_ansh1234'
     backendAzureRmKey: 'k8s-dev.tfstate'
     allowTelemetryCollection: true
