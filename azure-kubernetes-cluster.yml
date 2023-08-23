@@ -19,7 +19,7 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'azure-service-connection'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'terraform-backend-ansh1234'
+    backendAzureRmResourceGroupName: 'terraformbackendansh1234'
     backendAzureRmResourceGroupLocation: 'westeurope'
     backendAzureRmStorageAccountName: 'storagean405sh'
     backendAzureRmContainerName: 'storage_ansh1234'
