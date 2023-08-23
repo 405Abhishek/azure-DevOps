@@ -3,8 +3,8 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
-- task: DownloadSecureFile@1
+  
+  task: DownloadSecureFile@1
   inputs:
     secureFile: 'azure_rsa.pub'
     retryCount: '5'
