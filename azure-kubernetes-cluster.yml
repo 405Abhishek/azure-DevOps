@@ -17,11 +17,11 @@ steps:
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes'
     commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$(publickey.secureFilePath)'
     backendType: 'azurerm'
-    backendServiceArm: 'azure-service-connection'
+    backendServiceArm: 'azure-resource-manager-service-connection'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'trfrbkendansh1234'
+    backendAzureRmResourceGroupName: 'terraform-backend-ansh1234'
     backendAzureRmResourceGroupLocation: 'westeurope'
-    backendAzureRmStorageAccountName: 'storageaccanshxyz'
+    backendAzureRmStorageAccountName: 'storagean405sh'
     backendAzureRmContainerName: 'storagsh1234'
     backendAzureRmKey: 'k8s-dev.tfstate'
     
