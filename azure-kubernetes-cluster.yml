@@ -19,9 +19,9 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'azure-service-connection'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'terraform-backend-rg'
+    backendAzureRmResourceGroupName: 'terraform-backend-ansh1234'
     backendAzureRmResourceGroupLocation: 'westeurope'
-    backendAzureRmStorageAccountName: 'storage_ansh1234'
+    backendAzureRmStorageAccountName: 'storage_ansh1234888789'
     backendAzureRmContainerName: 'storage_ansh1234'
     backendAzureRmKey: 'k8s-dev.tfstate'
     allowTelemetryCollection: true
