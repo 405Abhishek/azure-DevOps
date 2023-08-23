@@ -5,9 +5,9 @@ pool:
   vmImage: ubuntu-latest
 
 - task: DownloadSecureFile@1
-  name: publickey
   inputs:
     secureFile: 'azure_rsa.pub'
+    retryCount: '5'
 
 steps:
 - script: echo K8s Terraform Azure
